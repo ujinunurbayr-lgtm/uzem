@@ -1,0 +1,49 @@
+.main {
+  width: 200px;
+  height: 100px;
+  background-color: blueviolet;
+  flex-direction: row;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box {
+  flex-direction: column;
+  width: 40px;
+  height: 40px;
+
+  background-color: black;
+}
+.neg {
+  background-color: blueviolet;
+  width: 200px;
+  height: 150px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hairtsag {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+.hoyr {
+  background-color: blueviolet;
+  height: 35px;
+  width: 250px;
+  border-radius: 30px;
+  padding: 10px;
+}
+.top-bar {
+  background-color: black;
+  height: 4px;
+  margin-top: 3px;
+}
+.top-baf {
+  display: grids;
+  background-color: black;
+  height: 4 px;
+  margin-bottom: 10px;
+}

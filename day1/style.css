@@ -1,0 +1,104 @@
+@media only screen and (min-width: 993px) {
+  body {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+  }
+
+  .po2 {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100vw;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .po1 {
+    color: white;
+    background-color: blue;
+    height: 30px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  .pu {
+    color: black;
+    /* width: 200px;
+    height: 50px; */
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 01px) {
+  body {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+  }
+
+  .po2 {
+    width: 100vw;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2 300px);
+    height: 30px;
+    width: 100vw;
+
+    gap: 10px;
+    justify-self: center;
+  }
+
+  .po1 {
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+  .pu {
+    color: black;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+  }
+
+  .po2 {
+    width: 100vw;
+    height: 100px;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 100vw;
+
+    gap: 10px;
+    justify-self: center;
+  }
+
+  .po1 {
+    color: white;
+    background-color: green;
+    height: 30px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .pu {
+    color: black;
+  }
+}
